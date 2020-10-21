@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formmulario</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputnommbre">Nombre de Pila</label>
+                    <input type="nombre" class="form-control" id="nombre">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputapellido">Apellido</label>
+                    <input type="apellido" class="form-control" id="inputapellido">
+                  </div>
+                </div>
+                <div class>
+                    <label for="inputusuario">Nombre de Usuario</label>
+                    <label class="sr-only" for="inlineFormInputnombredeusuario">Nombre de Usuario</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                      </div>
+                      <input type="usuario" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Nombre de Usuario">
+                    </div>
+                </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="inputEmail">Correo Electronico</label>
+
+                          <input type="email" class="form-control" id="inlineFormInputemail" placeholder="you@exemple.com ">
+                        </div>
+                    </div>
+                <div class="form-group">
+                  <label for="inputHabla">Habla a</label>
+                  <input type="Habla" class="form-control" id="inputHabla" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                  <label for="inputd2">Direccion 2</label>
+                  <input type="direc2" class="form-control" id="inputdireccion2" placeholder="Apartmento o suit">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputpais">Pais</label>
+                
+                    <select class="custom-select mr-sm-2" id="inlinePais">
+                        <option selected>Escoger</option>
+                        <option value="1">suiza</option>
+                        <option value="2">Alemania</option>
+                        <option value="3">Canada</option>
+                      </select>
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputState">Estado</label>
+                    <select class="custom-select mr-sm-2" id="inlineEstado">
+                        <option selected>Escoger</option>
+                        <option value="1">primario</option>
+                        <option value="2">segundario</option>
+                        <option value="3">terciario</option>
+                      </select>
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputcp">Codigo Postal</label>
+                    <input type="Codigopostal" class="form-control" id="inputcp">
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="griddireccion">
+                    <label class="form-check-label" for="gridCheck">
+                      La direccion de envio es la misma que la direccion de facturacion
+                    </label>
+                    
+                  </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridinfo">
+                      <label class="form-check-label" for="gridCheck">
+                        Guarde esta informmacion para la proxima vez
+                      </label>
+                      <hr>
+                    </div>
+                  </div>
+               
+                
+              </div>
+        </div>
+    </div>
+</body>
+
+</html>
